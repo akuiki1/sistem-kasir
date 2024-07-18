@@ -8,7 +8,7 @@
     </a>
   </div>
   <hr class="horizontal dark mt-0">
-  <div class="collapse navbar-collapse  w-auto" id="sidenav-collapse-main">
+  <div class="collapse navbar-collapse  w-auto h-auto" id="sidenav-collapse-main">
     <ul class="navbar-nav">
       <li class="nav-item">
         <a class="nav-link {{ (Request::is('dashboard') ? 'active' : '') }}" href="{{ url('dashboard') }}">
@@ -51,7 +51,7 @@
                     </g>
                 </svg>
             </div>
-            <span class="nav-link-text ms-1">User Profile</span>
+            <span class="nav-link-text ms-1">Profil</span>
         </a>
       </li>
       <li class="nav-item pb-2">
@@ -59,7 +59,7 @@
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
                 <i style="font-size: 1rem;" class="fas fa-lg fa-list-ul ps-2 pe-2 text-center text-dark {{ (Request::is('user-management') ? 'text-white' : 'text-dark') }} " aria-hidden="true"></i>
             </div>
-            <span class="nav-link-text ms-1">User Management</span>
+            <span class="nav-link-text ms-1">Kelola Karyawan</span>
         </a>
       </li>
       <li class="nav-item mt-2">
@@ -82,7 +82,7 @@
               </g>
             </svg>
           </div>
-          <span class="nav-link-text ms-1">Tables</span>
+          <span class="nav-link-text ms-1">Produk</span>
         </a>
       </li>
       <li class="nav-item">
@@ -102,7 +102,7 @@
               </g>
             </svg>
           </div>
-          <span class="nav-link-text ms-1">Billing</span>
+          <span class="nav-link-text ms-1">Stok Barang</span>
         </a>
       </li>
       <li class="nav-item">
@@ -123,7 +123,7 @@
               </g>
             </svg>
           </div>
-          <span class="nav-link-text ms-1">Virtual Reality</span>
+          <span class="nav-link-text ms-1">Scan Produk</span>
         </a>
       </li>
       <li class="nav-item">
@@ -213,25 +213,6 @@
           <span class="nav-link-text ms-1">Sign Up</span>
         </a>
       </li>
-      <li class="nav-link mb-0">
-        <a href="https://www.creative-tim.com/product/soft-ui-dashboard-pro-laravel" class="btn btn-primary btn-md active px-5 text-white" target="_blank" role="button" aria-pressed="true">
-            Upgrade to PRO</a>
-      </li>
     </ul>
-  </div>
-  <div class="sidenav-footer mx-3 ">
-    <div class="card card-background shadow-none card-background-mask-secondary" id="sidenavCard">
-      <div class="full-background" style="background-image: url('../assets/img/curved-images/white-curved.jpeg')"></div>
-      <div class="card-body text-start p-3 w-100">
-        <div class="icon icon-shape icon-sm bg-white shadow text-center mb-3 d-flex align-items-center justify-content-center border-radius-md">
-          <i class="ni ni-diamond text-dark text-gradient text-lg top-0" aria-hidden="true" id="sidenavCardIcon"></i>
-        </div>
-        <div class="docs-info">
-          <h6 class="text-white up mb-0">Need help?</h6>
-          <p class="text-xs font-weight-bold">Please check our docs</p>
-          <a href="/documentation/getting-started/overview.html" target="_blank" class="btn btn-white btn-sm w-100 mb-0">Documentation</a>
-        </div>
-      </div>
-    </div>
   </div>
 </aside>

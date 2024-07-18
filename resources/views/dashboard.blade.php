@@ -12,8 +12,7 @@
                 <p class="text-sm mb-0 text-capitalize font-weight-bold">Today's Money</p>
                 <h5 class="font-weight-bolder mb-0">
                   $53,000
-                  <span class="text-success text-sm font-weight-bolder">+55%</span>
-                </h5>
+                  </h5>
               </div>
             </div>
             <div class="col-4 text-end">
@@ -78,7 +77,6 @@
                 <p class="text-sm mb-0 text-capitalize font-weight-bold">Sales</p>
                 <h5 class="font-weight-bolder mb-0">
                   $103,430
-                  <span class="text-success text-sm font-weight-bolder">+5%</span>
                 </h5>
               </div>
             </div>
