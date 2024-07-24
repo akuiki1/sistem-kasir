@@ -9,15 +9,15 @@
           <div class="row">
             <div class="col-8">
               <div class="numbers">
-                <p class="text-sm mb-0 text-capitalize font-weight-bold">Today's Money</p>
+                <p class="text-sm mb-0 text-capitalize font-weight-bold">Transaksi Hari ini</p>
                 <h5 class="font-weight-bolder mb-0">
-                  $53,000
+                  250
                   </h5>
               </div>
             </div>
             <div class="col-4 text-end">
               <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                <i class="ni ni-money-coins text-lg opacity-10" aria-hidden="true"></i>
+                <i class="ni ni-cart text-lg opacity-10" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -30,7 +30,7 @@
           <div class="row">
             <div class="col-8">
               <div class="numbers">
-                <p class="text-sm mb-0 text-capitalize font-weight-bold">Today's Users</p>
+                <p class="text-sm mb-0 text-capitalize font-weight-bold">Total Produk</p>
                 <h5 class="font-weight-bolder mb-0">
                   2,300
                   <span class="text-success text-sm font-weight-bolder">+3%</span>
@@ -39,7 +39,7 @@
             </div>
             <div class="col-4 text-end">
               <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                <i class="ni ni-world text-lg opacity-10" aria-hidden="true"></i>
+                <i class="ni ni-app text-lg opacity-10" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@
           <div class="row">
             <div class="col-8">
               <div class="numbers">
-                <p class="text-sm mb-0 text-capitalize font-weight-bold">New Clients</p>
+                <p class="text-sm mb-0 text-capitalize font-weight-bold">Total Karyawan</p>
                 <h5 class="font-weight-bolder mb-0">
                   +3,462
                   <span class="text-danger text-sm font-weight-bolder">-2%</span>
@@ -61,7 +61,7 @@
             </div>
             <div class="col-4 text-end">
               <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                <i class="ni ni-paper-diploma text-lg opacity-10" aria-hidden="true"></i>
+                <i class="ni ni-circle-08 text-lg opacity-10" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -74,15 +74,15 @@
           <div class="row">
             <div class="col-8">
               <div class="numbers">
-                <p class="text-sm mb-0 text-capitalize font-weight-bold">Sales</p>
-                <h5 class="font-weight-bolder mb-0">
-                  $103,430
-                </h5>
+                <p class="text-sm mb-0 text-capitalize font-weight-bold">Hari ini</p>
+                <h6 class="font-weight-bolder mb-0">
+                  Rabu, 24 Juli 2024
+                </h6>
               </div>
             </div>
             <div class="col-4 text-end">
               <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                <i class="ni ni-cart text-lg opacity-10" aria-hidden="true"></i>
+                <i class="ni ni-calendar-grid-58 text-lg opacity-10" aria-hidden="true"></i>
               </div>
             </div>
           </div>

@@ -34,15 +34,17 @@ Route::group(['middleware' => 'auth'], function () {
 	})->name('billing');
 
 	Route::get('profile', function () {
-		return view('profile');
+		return view('admin/profil/profile');
 	})->name('profile');
+
+	Route::post('/update-image', [InfoUserController::class, 'updateImage'])->name('user.update_image');
 
 	Route::get('rtl', function () {
 		return view('rtl');
 	})->name('rtl');
 
 	Route::get('user-management', function () {
-		return view('laravel-examples/user-management');
+		return view('admin/profil/user-management');
 	})->name('user-management');
 
 	Route::get('tables', function () {

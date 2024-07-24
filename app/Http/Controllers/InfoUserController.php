@@ -7,13 +7,15 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Validation\Rule;
 use Illuminate\Support\Facades\View;
+use Illuminate\Support\Facades\Storage;
+
 
 class InfoUserController extends Controller
 {
 
     public function create()
     {
-        return view('laravel-examples/user-profile');
+        return view('admin/profil/user-profile');
     }
 
     public function store(Request $request)
@@ -53,5 +55,23 @@ class InfoUserController extends Controller
 
 
         return redirect('/user-profile')->with('success','Profile updated successfully');
+    }
+
+    public function updateImage(Request $request)
+    {
+        $request->validate([
+            'profile_picture' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+        ]);
+
+        $user = Auth::user();
+        if ($user->profile_picture && Storage::exists($user->profile_picture)) {
+            Storage::delete($user->profile_picture);
+        }
+
+        $path = $request->file('profile_picture')->store('profile_pictures', 'public');
+        $user->profile_picture = $path;
+        $user->save();
+
+        return redirect()->back()->with('success', 'Profile picture updated successfully.');
     }
 }
