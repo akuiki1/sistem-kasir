@@ -15,7 +15,7 @@ class InfoUserController extends Controller
 
     public function create()
     {
-        return view('admin/profil/user-profile');
+        return view('admin/profil/index');
     }
 
     public function store(Request $request)
@@ -54,7 +54,7 @@ class InfoUserController extends Controller
         ]);
 
 
-        return redirect('/user-profile')->with('success','Profile updated successfully');
+        return redirect('/profil')->with('success','Profile updated successfully');
     }
 
     public function updateImage(Request $request)
